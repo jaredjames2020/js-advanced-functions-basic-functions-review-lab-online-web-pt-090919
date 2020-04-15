@@ -1,4 +1,4 @@
 // Your code here
-function saturdayFun(thing = "roller-shate") {
-  return `This Saturday, I want to ${thing}!`
+function saturdayFun(thing = "roller-skate") {
+  return `This Saturday, I want to ${thing}!`;
 }
