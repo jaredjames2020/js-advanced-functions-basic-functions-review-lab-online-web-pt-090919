@@ -13,8 +13,3 @@ function wrapAdjective(flair = "*") {
   };
 }
 
-// function wrapAdjective(string="*") {
-//     return function(arg='special') {
-//         return `You are ${string}${arg}${string}!`
-//     }
-// }
