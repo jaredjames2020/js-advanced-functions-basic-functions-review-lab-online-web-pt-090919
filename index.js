@@ -13,3 +13,26 @@ function wrapAdjective(flair = "*") {
   };
 }
 
+const Calculator = {
+    add: function(a, b) {
+        return a + b;
+    },
+    subtract: function(a, b) {
+        return a - b;
+    },
+    multiply: function(a, b) {
+        return a * b;
+    },
+    divide: function(a, b) {
+        return a / b;
+    }
+}
+let actionApplyer = function(start, array) {
+    let action = start
+  
+    for (let i = 0; i < array.length; i++ ){
+      action = array[i](a)
+    }
+  
+    return action
+  }
