@@ -32,7 +32,7 @@ let actionApplyer = function(start, array) {
     let action = start
   
     for (let i = 0; i < array.length; i++ ){
-      action = array[i](a)
+      action = array[i](action)
     }
   
     return action
