@@ -7,14 +7,14 @@ function mondayWork(activity = "go to the office"){
   return `This Monday, I will ${activity}.`;
 }
 
-function wrapAdjective(flair = "*") {
-  return function(adjective = 'special') {
-    return `You are ${flair}${param1}${flair}!`;
-  };
-}
-
-// function wrapAdjective(string="*") {
-//     return function(arg='special') {
-//         return `You are ${string}${arg}${string}!`
-//     }
+// function wrapAdjective(flair = "*") {
+//   return function(adjective = 'special') {
+//     return `You are ${flair}${param1}${flair}!`;
+//   };
 // }
+
+function wrapAdjective(string="*") {
+    return function(arg='special') {
+        return `You are ${string}${arg}${string}!`
+    }
+}
